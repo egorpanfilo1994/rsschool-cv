@@ -1,4 +1,4 @@
-#### Egor Panfilo ####
+ Egor Panfilo 
 #### Contacts ####
 `mail:` egorpanfilo1994@gmail.com     
 `tel:` +375292242286       
