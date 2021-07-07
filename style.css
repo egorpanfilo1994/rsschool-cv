@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: cadetblue;
+}
+
+.container {
+    max-width: 1030px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foto img {
+    width: 35%;
+    border-radius: 5%;
+    -webkit-box-shadow: 4px -3px 42px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px -3px 42px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px -3px 42px -13px rgba(0, 0, 0, 0.75);
+}
+
+.name {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.navigation {
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(1, 1, 1, 0.7);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.title__contacts {
+    padding: 50px 0;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.Contacts a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 15px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+}
+
+.title__about_me {
+    padding-top: 30px;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.text__about_me {
+    padding: 50px 0;
+    text-align: left;
+}
+
+.title_Skills {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.text_Skills {
+    padding: 50px 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_Skills li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_Code {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+pre {
+    padding: 50px 0;
+    text-align: left;
+}
+
+.title_Work {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.text_Work {
+    padding: 50px 0;
+    text-align: left;
+}
+
+.title_Education {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.text_Education {
+    padding: 50px 0;
+    text-align: left;
+}
+
+span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.title_Languages {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.text_Languages {
+    padding: 50px 0;
+    text-align: left;
+}
+
+.github {
+    text-decoration: none;
+    color: black;
+}
+
+.rs {
+    padding-left: 10px;
+    width: 100px;
+}
